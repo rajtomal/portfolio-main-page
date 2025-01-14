@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #040A1C;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header-btn {
+    padding: 10px 30px;
+    background: linear-gradient(180deg, #279aec 0%, #0182df 100%);
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* showcase-part */
+
+.showcase-part {
+    padding: 100px 0;
+}
+
+.showcase-part h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    line-height: auto;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.showcase-part h1 span {
+    color: #6ec2ff;
+}
+
+/* showcase-content */
+.showcase-content {
+    padding: 20px;
+    background: #040A1C;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: relative;
+    /* overflow: hidden; */
+    z-index: 1;
+}
+
+.showcase-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.4) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    opacity: .25;
+}
+
+.showcase-content .showcase-img {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.showcase-content .showcase-img img {
+    width: 100%;
+}
+
+.showcase-content h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+
+.recommendation {
+    font-size: 16px;
+    padding: 6px 10px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #2a3041;
+    border-radius: 10px;
+    /* position: absolute;
+    right: 20px;
+    top: -16px;
+    z-index: 999; */
+}
