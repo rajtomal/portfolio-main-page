@@ -57,7 +57,7 @@ a {
 /* showcase-content */
 .showcase-content {
     padding: 20px;
-    background: #040A1C;
+    background: rgba(58, 74, 121, 0.5);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     position: relative;
@@ -113,4 +113,21 @@ a {
     right: 20px;
     top: -16px;
     z-index: 999; */
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 160px !important;
+    }
+
+    .showcase-part h1 {
+        width: 100% !important;
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .showcase-part h1 {
+        width: 100% !important;
+    }
 }
