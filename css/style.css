@@ -57,7 +57,7 @@ a {
 /* showcase-content */
 .showcase-content {
     padding: 20px;
-    background: rgba(58, 74, 121, 0.5);
+    background: rgba(41, 49, 72, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     position: relative;
